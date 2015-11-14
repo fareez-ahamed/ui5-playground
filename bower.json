@@ -1,0 +1,24 @@
+{
+  "name": "my-openui5-app",
+  "version": "0.0.0",
+  "authors": [
+    "Fareez Ahamed <fareez.ahamed@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "openui5-sap.ui.core": "openui5/packaged-sap.ui.core#~1.32.5",
+    "openui5-sap.m": "openui5/packaged-sap.m#~1.32.5",
+    "openui5-themelib_sap_bluecrystal": "openui5/packaged-themelib_sap_bluecrystal#~1.32.5"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
