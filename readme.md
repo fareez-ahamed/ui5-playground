@@ -1,17 +1,35 @@
-We are going to use bower
+#ui5-playground
+
+It is a boilerplate to quickly start experimenting and learning SAPUI5 / [OpenUI5](http://openui5.org/) with a gulp based simple server with livereload.
+
+##Required
+
+- NodeJs
+- NPM
+- Bower
+- Gulp
+
+##How to setup
+
+Just clone this repo
 
 ```
-bower init
+git clone https://github.com/fareez-ahamed/ui5-playground
 ```
 
-And give all defaults
-
-and then add the following dependencies
+Install OpenUI5 using bower. Dependencies are already available in the bower.json file. Currently it pulls OpenUI5 1.32.5
 
 ```
-"dependencies": {
-    "openui5-sap.ui.core": "openui5/packaged-sap.ui.core#~1.32.5",
-    "openui5-sap.m": "openui5/packaged-sap.m#~1.32.5",
-    "openui5-themelib_sap_bluecrystal": "openui5/packaged-themelib_sap_bluecrystal#~1.32.5"
-  }
+bower install
 ```
+
+Install NPM dependencies
+
+```
+npm install
+```
+
+Only for the first time, run `gulp copy`
+
+
+Now everything is ready, run `gulp serve` and go to `http://localhost:8000` and see the output. Whenever you change anything in the `webapp` folder, it automatically reflects in the browser through livereload.
